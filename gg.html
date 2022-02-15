@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jas.js"></script>
+</head>
+<body>
+	 <!-- 1-2ex -->
+	<div style="background-color: red; width: 300px; padding: 5px;">
+		<form>
+			<span id="text1">Enter password</span> 
+		<br>
+			<input type="Password" id="passwrd"> 
+			<input type="checkbox" id="checkbox">
+			<label for="checkbox">check</label>
+		<br>
+			<button id="hideshow" type="button">click to hide</button>
+			<button id="subm" type="submit" disabled>submit</button>
+		</form>
+	</div>
+	 <!-- 3ex -->
+	<div style=" position: fixed; bottom: 30px;">
+		<button type="button" id="scroll">Scroll to the top</button>
+	</div>
+	 <!-- 5ex -->
+	<div style="width: 500px; height:200px ; ">
+	<form >
+		<label>Maximum 100 characters</label>
+		<textarea id="textarea" maxlength="100"></textarea>
+		<span id="anyid">100</span> characters remaining
+	</form>
+	</div>
+	 <!-- 6ex -->
+	 <p id="fadetext" style="background-color: skyblue; width: 300px; "> Click this paragraph to see it fade.</p>
+	  <!-- 7ex -->
+	<div style="width: 100%; height: 500px; background-color: gray;">
+	  	<div style="width: 100px; height:100px; background-color: red; text-align: center; position: absolute; margin: 6px;" id="toanimate">
+			Animation
+		</div>
+		<div style="position: absolute; right: 20px; bottom: 20px;">
+		  		<button type="button" id="btn1">Animate</button>
+				<button type="button" id="btn2">Reset</button>
+		</div>
+	</div>
+</body>
+</html>
